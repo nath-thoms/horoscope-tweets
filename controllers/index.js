@@ -1,15 +1,28 @@
 const PersonalityInsights = require('watson-developer-cloud/personality-insights/v3');
 const Twit = require('twit');
-const { twitterKeys, personalityConfig } = require('../config');
+//const { twitterKeys, personalityConfig } = require('../config');
+const username = process.env.username || require('../config').personalityConfig.username;
+const password = process.env.password || require('../config').personalityConfig.password;
+const url = process.env.url || require('../config').personalityConfig.url;
+const consumer_key = process.env.consumer_key || require('../config').twitterKeys.consumer_key;
+const consumer_secret = process.env.consumer_secret || require('../config').twitterKeys.consumer_secret;
+const access_token = process.env.access_token || require('../config').twitterKeys.access_token;
+const access_token_secret = process.env.access_token_secret || require('../config').twitterKeys.access_token_secret;
+
 const fs = require('fs')
 
 const pi = new PersonalityInsights({
-    username: personalityConfig.username,
-    password: personalityConfig.password,
+    username: username,
+    password: password,
     version_date: '2017-12-12'
 })
 
-let T = new Twit(twitterKeys)
+let T = new Twit({
+    consumer_key: consumer_key,
+    consumer_secret: consumer_secret,
+    access_token: access_token,
+    access_token_secret: access_token_secret
+})
 
 function getTweets(handle) {
     return T.get("statuses/user_timeline", {
