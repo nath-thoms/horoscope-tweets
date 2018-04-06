@@ -95,7 +95,7 @@ function getStarSign(req, res, next) {
                 return matchStarSign(6, res)
             }
             //assertiveness libra
-            else if (info.personality[2].children[1].percentile < 0.2) {
+            else if (info.personality[2].children[1].percentile < 0.25) {
                 return matchStarSign(7, res)
             }
             //outgoing virgo
