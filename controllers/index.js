@@ -24,7 +24,8 @@ function getTweets(handle) {
             }
         })
 }
-getTweets('nath_thoms');
+
+// getTweets('nath_thoms');
 
 function getPersonalityInsight(content) {
     return new Promise((resolve, reject) => {
@@ -44,18 +45,69 @@ function getPersonalityInsight(content) {
 
 
 function getStarSign(req, res, next) {
-    let twit_name = req.params.twit_name
-    return getTweets(twit_name)
-    console.log(twit_name)
-        .then(tweets => {
-            console.log(tweets)
-            //if (tweets.join('').split(' ').length < 1000) return null;
-            return getPersonalityInsight(JSON.stringify(tweets))
+    let twit_name = req.params.twit_name;
+    getTweets(twit_name)
+    .then(tweetText => {
+        if (tweetText.join('').split(' ').length < 300) return null;
+        else return getPersonalityInsight(JSON.stringify(tweetText))
+    })
+    .then(info => {
+        //emotional range
+        if (info.personality[4].percentile < 0.2) {
+            res.send('aquarius')
+        }
+        //cautiousness
+        else if (info.personality[1].children[1].percentile > 0.75) {
+            res.send('pisces')
+        }
+        //fiery
+        else if (info.personality[4].children[0].percentile > 0.85) {
+            res.send('aries')
+        }
+        //openess to change
+        else if (info.values[1].percentile < 0.15) {
+            res.send('taurus')
+        }
+        //prone to worry
+        else if (info.personality[4].children[1].percentile > 0.90) {
+            res.send('gemini')
+        }
+        //cheerfulness
+        else if (info.personality[2].children[2].percentile < 0.30) {
+            res.send('cancer')
+        }
+        //Conscientiousness
+        else if (info.personality[1].percentile < 0.10) {
+            res.send('leo')
+        }
+        //outgoing
+        else if (info.personality[2].children[4].percentile < 0.30) {
+            res.send('virgo')
+        }
+        //assertiveness
+        else if (info.personality[2].children[1].percentile < 0.2) {
+            res.send('libra')
+        }
+        //trust
+        else if (info.personality[3].children[5].percentile < 0.33) {
+            res.send('scorpio')
+        }
+        //intellect
+        else if (info.personality[0].children[4].percentile < 0.10) {
+            res.send('sagitarius')
+        }
+        //modesty
+        else if (info.personality[3].children[2].percentile < 0.10) {
+            res.send('capricorn')
+        }
         })
-        .then(personalityInfo => {
-            res.send(personalityInfo)
-        })
+        .catch(next)
 }
+
+function matchStarSign (){
+
+}
+
 
 
 
