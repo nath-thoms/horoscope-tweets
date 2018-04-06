@@ -1,6 +1,71 @@
 body {
-    text-align: center;
     font-weight: bold;
-    background-color: darksalmon
+    background-image: url("https://static.ok.co.uk/media/images/625x938_ct/740029_Mystic_Meg_459b4a3486a4b8b869ded70c64122b56.gif");
+    background-size:100% 100vh;
+    font-family: cursive;
+}
+
+.backgroundHoroscope {
+    background-image: url("http://jessicaadams1-asporeaconsultin.netdna-ssl.com/wp-content/uploads/2014/05/AstrologyHeader.jpg");
+
+}
+
+p {
+    color: white;
+    font-size: 3em;
+    text-align:center;
+}
+
+.horoscopeName {
+    color: white;
+    font-size: 2em;
+    text-align:center;
+}
+
+.horoscopeImage {
+    flex:3;
+    border-radius: 50%;
+    background-position: top center;
+    text-align: left;
+}
+
+
+.celeb {
+    border-radius: 40%;
+}
+
+.form {
+    padding-top: 40%;
+    text-align: center;
+}
+
+.wrapper {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+    
+.button {
+    margin: 4px;
+}
+
+#starSignImage {
+    flex: 1;
+}
+
+#text {
+    flex: 2;
+    color: white;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 500px){
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .button {
+        width:100%
+    }
 }
 

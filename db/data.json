@@ -1,81 +1,74 @@
 [
-{
-    "name":"aquarius", 
-    "img":"http://www.astrology-zodiac-signs.com/images/aquarius.jpg",
-    "celeb":"https://pbs.twimg.com/media/CQP84MRWcAIelIS.jpg", 
-    "text":""
-}, 
-{
-    "name": "pisces",
-    "img": "http://www.astrology-zodiac-signs.com/images/pisces.jpg",
-    "celeb":"https://i.pinimg.com/originals/ec/c2/31/ecc2313ba8290de4c4f443552840c69d.jpg", 
-    "text": ""
-},
-{
-    "name": "aries",
-    "img": "http://www.astrology-zodiac-signs.com/images/aries.jpg",
-    "celeb":"https://the-hollywood-gossip-res.cloudinary.com/iu/s--QNCk5CBP--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1407739219/kim-kardashian-krying.jpg",
-    "text": ""
-},
-{
-    "name": "taurus",
-    "img": "http://www.astrology-zodiac-signs.com/images/taurus.jpg",
-    "celeb":"https://i.pinimg.com/originals/c8/1e/4d/c81e4dd5c4ade4a5533c0829d756eabb.jpg", 
-    "text": ""
-},
-{
-    "name": "gemini",
-    "img": "http://www.astrology-zodiac-signs.com/images/gemini.jpg",
-    "celeb":"http://www.nyacknewsandviews.com/wp-content/uploads/2016/03/trump-600x450.jpg", 
-    "text": ""
-},
-{
-    "name": "cancer",
-    "img": "http://www.astrology-zodiac-signs.com/images/cancer.jpg",
-    "celeb":"http://4.bp.blogspot.com/-hLiAsRzfzFU/T2d7OS_HbuI/AAAAAAAADIM/E72XPoDfpOc/s1600/lindsay-lohan-drug-abuse.jpg", 
-    "text": ""
-},
-{
-    "name": "leo",
-    "img": "http://www.astrology-zodiac-signs.com/images/leo.jpg",
-    "celeb":"http://i.dailymail.co.uk/i/pix/2013/07/05/article-0-1AAD2CD6000005DC-114_634x636.jpg", 
-    "text": ""
-},
-{
-    "name": "libra",
-    "img": "http://www.astrology-zodiac-signs.com/images/libra.jpg",
-    "celeb":"https://media.giphy.com/media/KwZFVlqmnZkRi/giphy.gif", 
-    "text": ""
-},
-{
-    "name": "virgo",
-    "img": "http://www.astrology-zodiac-signs.com/images/virgo.jpg",
-    "celeb":"https://tomandlorenzo.com/wp-content/uploads/2014/12/Miley-Cyrus-GOTS-Miami-Tom-LOrenzo-Site-TLO-2.jpg", 
-    "text": ""
-},
-{
-    "name": "scorpio",
-    "img": "http://www.astrology-zodiac-signs.com/images/scorpio.jpg",
-    "celeb":"https://www.famousbirthdays.com/faces/pons-lele-image.jpg", 
-    "text": ""
-},
-{
-    "name": "sagitarius",
-    "img": "http://www.astrology-zodiac-signs.com/images/sagitarius.jpg",
-    "celeb":"http://www.picshag.com/pics/012010/britney-spears-vs-the-megan-fox-kid.jpg", 
-    "text": ""
-}, 
-{
-    "name": "capricorn",
-    "img": "http://www.astrology-zodiac-signs.com/images/capricorn.jpg",
-    "celeb":"https://i.pinimg.com/originals/5a/23/3c/5a233cccd9f06f52b98ab0aaad91ff8d.jpg", 
-    "text": ""
-}
-
-
-    
-     
-    
- ]
-
- 
+    {
+        "name": "aquarius",
+        "img": "http://www.astrology-zodiac-signs.com/images/aquarius.jpg",
+        "celeb": "https://pbs.twimg.com/media/CQP84MRWcAIelIS.jpg",
+        "text": "Temperamental, uncompromising, stubborn, aloof, with a propensity to run away from emotional expression. You tend not to get along with those that disagree with you, kind of like Miss Hopkins..."
+    },
+    {
+        "name": "pisces",
+        "img": "http://www.astrology-zodiac-signs.com/images/pisces.jpg",
+        "celeb": "https://i.pinimg.com/originals/ec/c2/31/ecc2313ba8290de4c4f443552840c69d.jpg",
+        "text": "Weak-willed, over-sensitive, pessimistic and lazy. You are often found to be moaning and complaining. Here is a well-known Piscean role-model for you to aspire to:"
+    },
+    {
+        "name": "aries",
+        "img": "http://www.astrology-zodiac-signs.com/images/aries.jpg",
+        "celeb": "https://the-hollywood-gossip-res.cloudinary.com/iu/s--QNCk5CBP--/t_full/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1407739219/kim-kardashian-krying.jpg",
+        "text": "Impatient, moody, short-tempered, impulsive and aggressive. Are you sure your last name isn't Kardashian?!"
+    },
+    {
+        "name": "taurus",
+        "img": "http://www.astrology-zodiac-signs.com/images/taurus.jpg",
+        "celeb": "https://i.pinimg.com/originals/c8/1e/4d/c81e4dd5c4ade4a5533c0829d756eabb.jpg",
+        "text": "Stubborn, possessive and uncompromising. The stars tell us that despite being an excellent cook, gardener and lover, you hold a severe dislike for rushed decision-making and synthetic fabrics...just like Boris?!"
+    },
+    {
+        "name": "gemini",
+        "img": "http://www.astrology-zodiac-signs.com/images/gemini.jpg",
+        "celeb": "http://www.nyacknewsandviews.com/wp-content/uploads/2016/03/trump-600x450.jpg",
+        "text": "Enough said..."
+    },
+    {
+        "name": "cancer",
+        "img": "http://www.astrology-zodiac-signs.com/images/cancer.jpg",
+        "celeb": "http://4.bp.blogspot.com/-hLiAsRzfzFU/T2d7OS_HbuI/AAAAAAAADIM/E72XPoDfpOc/s1600/lindsay-lohan-drug-abuse.jpg",
+        "text": "Moody, pessimistic, suspicious, manipulative, insecure. The stars tell us that you dislike people knowing your business and that your prefer to stay out of the spotlight, much like this one..."
+    },
+    {
+        "name": "leo",
+        "img": "http://www.astrology-zodiac-signs.com/images/leo.jpg",
+        "celeb": "http://i.dailymail.co.uk/i/pix/2013/07/05/article-0-1AAD2CD6000005DC-114_634x636.jpg",
+        "text": "Arrogant, stubborn, self-centered, lazy and inflexible. No amount of witchcraft and wizardry could turn your frown upside down..."
+    },
+    {
+        "name": "libra",
+        "img": "http://www.astrology-zodiac-signs.com/images/libra.jpg",
+        "celeb": "https://media.giphy.com/media/KwZFVlqmnZkRi/giphy.gif",
+        "text": "You are indescisive, self-pitying and enjoy holding a grudge. You particularly enjoy laughing with friends and skipping through fields of wheat."
+    },
+    {
+        "name": "virgo",
+        "img": "http://www.astrology-zodiac-signs.com/images/virgo.jpg",
+        "celeb": "https://tomandlorenzo.com/wp-content/uploads/2014/12/Miley-Cyrus-GOTS-Miami-Tom-LOrenzo-Site-TLO-2.jpg",
+        "text": "You are shy, always worrying, overly critical of others and are not able to balance work and play. "
+    },
+    {
+        "name": "scorpio",
+        "img": "http://www.astrology-zodiac-signs.com/images/scorpio.jpg",
+        "celeb": "https://www.famousbirthdays.com/faces/pons-lele-image.jpg",
+        "text": "Distrusting, jealous, secretive and violent. You share a star sign with one of YouTube's biggest stars. No idea who she is? Us neither..."
+    },
+    {
+        "name": "sagitarius",
+        "img": "http://www.astrology-zodiac-signs.com/images/sagitarius.jpg",
+        "celeb": "http://www.picshag.com/pics/012010/britney-spears-vs-the-megan-fox-kid.jpg",
+        "text": "You are impatient, undiplomatic, and unpredictable. Can often be found off the rails..."
+    },
+    {
+        "name": "capricorn",
+        "img": "http://www.astrology-zodiac-signs.com/images/capricorn.jpg",
+        "celeb": "https://i.pinimg.com/originals/5a/23/3c/5a233cccd9f06f52b98ab0aaad91ff8d.jpg",
+        "text": "You are the living embodiment of this years hottest couple: KimYe."
+    }
+]

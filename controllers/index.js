@@ -46,7 +46,7 @@ function getPersonalityInsight(content) {
 
 
 function getStarSign(req, res, next) {
-    let twit_name = req.params.twit_name;
+    let twit_name = req.query.handle
     getTweets(twit_name)
         .then(tweetText => {
             if (tweetText.join('').split(' ').length < 300) return null;

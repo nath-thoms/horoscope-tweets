@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
     res.render('pages/home')
 })
 
-app.get('/:twit_name', getStarSign);
+app.get('/profile', getStarSign);
 
 
 app.use(bodyParser.json());
