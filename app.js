@@ -13,13 +13,20 @@ app.get('/profile', getStarSign);
 
 
 app.use(bodyParser.json());
-app.use('/*', (req, res, next) => next({ status: 404 }))
 
-
+app.use('/*', (req, res, next) => {
+    res.render('pages/error')
+    next({ status: 404 })
+})
 app.use((err, req, res, next) => {
-    if (err.status === 400) res.status(400).send({ message: 'Bad request' });
-    else if (err.status = 404) res.status(404).send({ message: err });
-    else res.status(500).send({ message: 'Internal server error' })
-});
+    if (err.status === 404) res.render('pages/error')
+    // res.status(404).send({ message: `Page not found : err` })
+    else next(err)
+})
+app.use((err, req, res, next) => {
+    // console.log(err)
+    res.render('pages/error')
+    // res.status(500).send({ message: 'Internal server error', err })
+})
 
 module.exports = app;
